@@ -12,13 +12,13 @@ export default function App() {
   return (
     <div className="relative min-h-screen overflow-x-hidden">
       {/* Background */}
-      <LivingBackground />
+      <LivingBackground/>
 
       {/* Theme Animation */}
-      <ThemeTransition />
+      <ThemeTransition/>
 
       {/* Theme Button */}
-      <ThemeToggle />
+      <ThemeToggle/>
 
       {/* Main Content */}
       <main className="relative z-10">
