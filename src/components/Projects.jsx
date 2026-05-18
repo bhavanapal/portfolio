@@ -4,6 +4,8 @@ import { useTheme } from "../context/ThemeContext";
 import { ArrowUpRight} from "lucide-react";
 import { FaPoll } from "react-icons/fa";
 import { GrWorkshop } from "react-icons/gr";
+import { FaShoppingCart } from "react-icons/fa";
+import { MdTravelExplore } from "react-icons/md";
 
 const projects = [
   {
@@ -54,6 +56,27 @@ const projects = [
     github: "https://github.com/bhavanapal/Workshop-feedback-certificate-automation-system",
 
     icon: GrWorkshop,
+  },
+
+   {
+    title: "E-commerce Website",
+    subtitle: "Responsive platform for online shopping and product browsing",
+    description:
+      "Developed a modern and fully responsive e-commerce frontend featuring product listings, shopping cart interface, responsive navigation, and interactive UI components. The project focuses on clean design, user experience, and mobile responsiveness using Tailwind CSS utility classes.",
+    tech: ["Javascript", "HTML5", "CSS3", "Tailwind"],
+    live:  "https://bhavanapal.github.io/Rahba-ShopNow-E-commerce/",
+    github: "https://github.com/bhavanapal/Rahba-ShopNow-E-commerce",
+    icon: FaShoppingCart,
+  },
+
+   {
+    title: "Destination paradise",
+    description:
+      "Developed a responsive travel website using HTML, CSS, and JavaScript that showcases popular tourist destinations.Focused on clean layout design, smooth navigation, and engaging visual experience for users.",
+    tech: ["Javascript", "HTML5", "CSS3"],
+    live:  "https://bhavanapal.github.io/Destination-Paradise-with-JavaScript/",
+    github: "https://github.com/bhavanapal/next-destination",
+    icon: MdTravelExplore,
   },
 ];
 
