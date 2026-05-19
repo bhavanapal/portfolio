@@ -12,6 +12,8 @@ const skillGroups = [
       "React.js",
       "TypeScript",
       "JavaScript",
+      "Zustand",
+      "Redux",
       "HTML5",
       "CSS3",
       "Tailwind CSS",
