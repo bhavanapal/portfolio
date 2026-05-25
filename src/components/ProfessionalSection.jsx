@@ -16,7 +16,7 @@ const timeline = [
 
     title: "Full Stack Developer (MERN)",
 
-    organization: "Brain Mentors Pvt Ltd. Apprenticeship / Personal Projects",
+    organization: "Brain Mentors Pvt Ltd.",
 
     description:
       "Currently working as a Full Stack MERN Developer focused on building scalable, secure, and performance-driven web applications.",
