@@ -16,9 +16,11 @@ const projects = [
     description:
       "we could analyze meeting conversations and uncover how much unnecessary jargon, filler words, and repeated phrases are being used — then measure how productive or wasteful the meeting actually was?",
     
-   challenge: "Invalid request payloads could cause unexpected errors or inconsistent data.",
+   challenge:
+       "Invalid request payloads could cause unexpected errors or inconsistent data.",
 
-   solution: "Added request validation and centralized error handling to ensure consistent API responses and improve reliability.",
+   solution:
+       "Added request validation and centralized error handling to ensure consistent API responses and improve reliability.",
     
    tech: ["Node.js", "Express.js", "MongoDB","Mongoose","REST APIs", "Docker", "CI/CD", "SuperTest", "Swagger", "Vitest", "Middleware & Error Handling", "Zod"],
 
