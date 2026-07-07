@@ -6,8 +6,24 @@ import { FaPoll } from "react-icons/fa";
 import { GrWorkshop } from "react-icons/gr";
 import { FaShoppingCart } from "react-icons/fa";
 import { MdTravelExplore } from "react-icons/md";
+import { SiGooglemeet } from "react-icons/si";
 
 const projects = [
+    {
+    title: "Meeting Analyzer Counter",
+    subtitle: "analyzes a meeting transcript and tells you how “productive vs wasteful” the meeting actually was.",
+      
+    description:
+      "we could analyze meeting conversations and uncover how much unnecessary jargon, filler words, and repeated phrases are being used — then measure how productive or wasteful the meeting actually was?",
+   
+    tech: ["Node.js", "Express.js", "MongoDB","Mongoose","REST APIs", "Docker", "CI/CD", "SuperTest", "Swagger", "Vitest", "Middleware & Error Handling", "Zod"],
+
+    live:  "https://meeting-bullshit-counter-production.onrender.com" ,
+    github: "https://github.com/bhavanapal/meeting-bullshit-counter",
+    Swagger : "https://meeting-bullshit-counter-production.onrender.com/docs/",
+
+    icon: SiGooglemeet,
+  },
   {
     title: "Real-Time Polling Application",
     subtitle: "Secure Authentication & Scalable APIs",
