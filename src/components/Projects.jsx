@@ -24,10 +24,9 @@ const projects = [
     
    tech: ["Node.js", "Express.js", "MongoDB","Mongoose","REST APIs", "Docker", "CI/CD", "SuperTest", "Swagger", "Vitest", "Middleware & Error Handling", "Zod"],
 
-    live:  "https://meeting-bullshit-counter-production.onrender.com" ,
+    live: "https://meeting-bullshit-counter-production.onrender.com/docs/",
     github: "https://github.com/bhavanapal/meeting-bullshit-counter",
-    Swagger : "https://meeting-bullshit-counter-production.onrender.com/docs/",
-
+        
     icon: SiGooglemeet,
   },
   {
