@@ -70,7 +70,7 @@ const skillGroups = [
       "ChatGpt",
       "Cursor AI",
       "Gemini",
-      "Cursor AI"
+      "Cursor AI",
       "Prompt Engineering",
     ],
   },
@@ -86,7 +86,7 @@ const skillGroups = [
       "Real-time Application",
       "Multi-user Application Design",
       "API Integration",
-      "Authentication & Authorization"
+      "Authentication & Authorization",
     ],
   },
 ];
