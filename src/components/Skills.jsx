@@ -44,9 +44,9 @@ const skillGroups = [
       "Mongoose",
     ],
   },
-
+  
   {
-    category: "Tools",
+    category: "Cloud & DevOps",
 
     skills: [
       "Git",
@@ -58,7 +58,35 @@ const skillGroups = [
       "Supertest",
       "Swagger",
       "VS Code",
-      "Vercel / Render / Netlify (deployment)",
+      "Vercel / Render / AWS / Netlify (deployment)",
+    ],
+  },
+
+  {
+    category: "AI & Automation",
+
+    skills: [
+      "Github Copilot",
+      "ChatGpt",
+      "Cursor AI",
+      "Gemini",
+      "Cursor AI"
+      "Prompt Engineering",
+    ],
+  },
+
+   {
+    category: "Product Type",
+
+    skills: [
+      "Saas Application",
+      "REST API Platforms",
+      "Backend Systems",
+      "API-First Application",
+      "Real-time Application",
+      "Multi-user Application Design",
+      "API Integration",
+      "Authentication & Authorization"
     ],
   },
 ];
