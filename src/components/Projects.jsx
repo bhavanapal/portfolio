@@ -161,6 +161,9 @@ export default function Projects() {
 
           {/* Projects */}
           <div className="space-y-20">
+                <h1 className="text-red-500 text-5xl">
+                             PROJECTS WORKING
+                             </h1>
             {projects.map((project, index) => {
               const Icon = project.icon;
               const isEven = index % 2 === 0;
@@ -206,9 +209,6 @@ export default function Projects() {
                         </div>
 
                         <div className="flex flex-wrap gap-2">
-                            <h1 className="text-red-500 text-5xl">
-                             PROJECTS WORKING
-                             </h1>
                           {project.tech.map((tech) => (
                             <span
                               key={tech}
