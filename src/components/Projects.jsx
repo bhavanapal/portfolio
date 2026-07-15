@@ -161,9 +161,6 @@ export default function Projects() {
 
           {/* Projects */}
           <div className="space-y-20">
-                <h1 className="text-red-500 text-5xl">
-                             PROJECTS WORKING
-                             </h1>
             {projects.map((project, index) => {
               const Icon = project.icon;
               const isEven = index % 2 === 0;
