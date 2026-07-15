@@ -61,7 +61,7 @@ const projects = [
 
     solution:
       "Implemented automated certificate generation logic with dynamic data rendering to generate personalized certificates efficiently.",
-
+       Note: For admin email and password, please check the GitHub repository.
     tech: [
       "React.js",
       "ContextAPI",
