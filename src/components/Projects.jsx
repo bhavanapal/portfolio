@@ -161,7 +161,7 @@ export default function Projects() {
 
           {/* Projects */}
           <div className="space-y-20">
-            {projects.map((project, index) => {
+            {projects?.map((project, index) => {
               const Icon = project.icon;
               const isEven = index % 2 === 0;
 
@@ -206,7 +206,7 @@ export default function Projects() {
                         </div>
 
                         <div className="flex flex-wrap gap-2">
-                          {project.tech.map((tech) => (
+                          {project.tech?.map((tech) => (
                             <span
                               key={tech}
                               className={`px-4 py-2 ${colors.techBg} rounded-full ${colors.techText} text-sm`}
