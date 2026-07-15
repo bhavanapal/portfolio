@@ -5,27 +5,23 @@ export function useInView() {
   const [isInView, setIsInView] = useState(false);
 
   useEffect(() => {
-    const element = ref.current;
-
-    if (!element) return;
-
     const observer = new IntersectionObserver(
       ([entry]) => {
-        if (entry.isIntersecting) {
-          setIsInView(true);
-          observer.unobserve(element); // animate only once
-        }
+        setIsInView(entry.isIntersecting);
       },
       {
-        threshold: 0.05, // better for mobile
-        rootMargin: "0px 0px -50px 0px",
+        threshold: 0.2,
       }
     );
 
-    observer.observe(element);
+    if (ref.current) {
+      observer.observe(ref.current);
+    }
 
     return () => {
-      observer.disconnect();
+      if (ref.current) {
+        observer.unobserve(ref.current);
+      }
     };
   }, []);
 
