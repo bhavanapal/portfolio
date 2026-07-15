@@ -51,7 +51,7 @@ const projects = [
 
   {
     title: "Workshop Feedback & Certificate Automation System",
-    subtitle: "Automated platform for workshop feedback and certificate generation",
+    subtitle: "Automated platform for workshop feedback and certificate generation.               Note: For admin email and password, please check the GitHub repository.",
 
     description:
       "Developed a web application that streamlines workshop feedback collection and automates certificate generation for participants. Designed to reduce manual work and improve efficiency using React.js, Context API, and Appwrite.",
@@ -60,7 +60,7 @@ const projects = [
       "Generating certificates dynamically with participant-specific information while maintaining consistent formatting.",
 
     solution:
-      "Implemented automated certificate generation logic with dynamic data rendering to generate personalized certificates efficiently.        Note: For admin email and password, please check the GitHub repository.",
+      "Implemented automated certificate generation logic with dynamic data rendering to generate personalized certificates efficiently.",       
     tech: [
       "React.js",
       "ContextAPI",
