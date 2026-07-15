@@ -140,7 +140,7 @@ export default function Projects() {
           <motion.div
             className="mb-20 max-w-3xl"
             initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
+            animate={isInView ? { opacity: 1, y: 0 } : {}} 
             transition={{ duration: 0.8 }}
           >
             <motion.div
@@ -169,7 +169,7 @@ export default function Projects() {
                 <motion.article
                   key={project.title}
                   initial={{ opacity: 0, y: 60 }}
-                  animate={{ opacity: 1, y: 0 }}
+                  animate={isInView ? { opacity: 1, y: 0 } : {}} 
                   transition={{
                     delay: index * 0.2,
                     duration: 1,
