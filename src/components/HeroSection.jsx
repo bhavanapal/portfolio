@@ -140,24 +140,9 @@ export default function HeroSection() {
             className="inline-block"
           >
             <span
-               className={`
-    inline-block
-    max-w-full
-    px-3 sm:px-5
-    py-2 sm:py-2.5
-    text-xs sm:text-sm
-    text-center
-    whitespace-normal
-    break-words
-    ${colors.accentBg}
-    border
-    ${colors.accentBorder}
-    rounded-full
-    ${colors.accent}
-    tracking-wide
-    backdrop-blur-sm
-  `}
-              {/* className={`px-5 py-2.5 ${colors.accentBg} border ${colors.accentBorder} rounded-full ${colors.accent} tracking-wide backdrop-blur-sm text-sm`} */}
+               className={`inline-block max-w-full px-3 sm:px-5 py-2 sm:py-2.5 text-xs sm:text-sm text-center whitespace-normal break-words ${colors.accentBg} border
+               ${colors.accentBorder}  rounded-full ${colors.accent} tracking-wide  backdrop-blur-sm`}
+             
             >
               Full Stack Developer (MERN) & Backend Engineer
             </span>
