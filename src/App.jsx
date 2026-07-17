@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react";
 import LivingBackground from "./components/LivingBackground";
 import ThemeToggle from "./components/ThemeToggle";
 import ThemeTransition from "./components/ThemeTransition";
@@ -29,6 +30,9 @@ export default function App() {
         <ProfessionalSection/>
        <ContactSection/>
       </main>
+      
+      {/* Vercel Web Analytics */}
+      <Analytics />
     </div>
   );
 }
