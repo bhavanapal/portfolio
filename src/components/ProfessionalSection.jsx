@@ -9,14 +9,39 @@ import {
 } from "lucide-react";
 
 const timeline = [
+
+    {
+    icon: Briefcase,
+
+    year: "2025 - Currently",
+
+    title: "Independent MERN Stack Developer | Backend Focused",
+
+    organization: "Self-Employed",
+
+    description:
+      "Currently working independently as a Backend-Focused MERN Stack Developer, building and maintaining full-stack web applications with a strong focus on backend development.I primarily work with Node.js, Express.js, MongoDB, and REST APIs to develop scalable backend systems, implement authentication and authorization, design database structures, integrate third-party services, and build reliable server-side business logic. I also work with React.js when frontend development or API integration is required.",
+
+    highlights: [
+    "Designed and developed scalable RESTful APIs using Node.js and Express.js",
+    "Built secure authentication and authorization systems using JWT and role-based access control",
+    "Designed and optimized MongoDB/Mongoose schemas and database operations",
+    "Integrated third-party APIs and external services into production applications",
+    "Improved backend performance, reliability, and maintainability through modular architecture",
+    "Developed React.js interfaces and integrated them with backend APIs when required",
+    "Handled deployment, debugging, monitoring, and ongoing application maintenance",
+    ],
+  },
+
+  
    {
     icon: Briefcase,
 
-    year: "2024 - Present",
+    year: "2024 - 2025",
 
     title: "Full Stack Developer (MERN)",
 
-    organization: "Brain Mentors Pvt Ltd.",
+    organization: "Brain Mentors Pvt Ltd.(Apprenticeship)",
 
     description:
       "Currently working as a Full Stack MERN Developer focused on building scalable, secure, and performance-driven web applications.",
@@ -30,7 +55,7 @@ const timeline = [
   {
     icon: Code2,
 
-    year: "2022",
+    year: "2022 - 2024",
 
     title: "Web Developer",
 
@@ -49,7 +74,7 @@ const timeline = [
   {
     icon: FaWordpress,
 
-    year: "2020",
+    year: "2019 - 2022",
 
     title: "Wordpress Developer",
 
