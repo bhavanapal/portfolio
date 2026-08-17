@@ -13,7 +13,7 @@ const timeline = [
     {
     icon: Briefcase,
 
-    year: "2025 - Currently",
+    year: "Nov 2025 - Currently",
 
     title: "Independent MERN Stack Developer | Backend Focused",
 
@@ -37,25 +37,30 @@ const timeline = [
    {
     icon: Briefcase,
 
-    year: "2024 - 2025",
+    year: "Oct 2024 - Nov 2025",
 
     title: "Full Stack Developer (MERN)",
 
     organization: "Brain Mentors Pvt Ltd.(Apprenticeship)",
 
     description:
-      "Currently working as a Full Stack MERN Developer focused on building scalable, secure, and performance-driven web applications.",
-
+      "Worked as a MERN Stack Developer Apprentice, gaining hands-on experience in full-stack web development and learning industry practices through real-world projects and development tasks.Focused primarily on backend development using Node.js, Express.js, and MongoDB, while also working with React.js for frontend development and API integration. Collaborated on implementing features, fixing bugs, developing REST APIs, managing databases, and improving existing application functionality.",
     highlights: [
-    "Built full-stack applications using MERN stack",
     "Implemented JWT authentication and role-based access control",
     "Developed real-time features using Socket.io",
+    "Developed RESTful APIs using Node.js and Express.js",
+    "Worked with MongoDB and Mongoose for database operations",
+    "Built and integrated React.js components and frontend features",
+    "Implemented CRUD functionality and backend business logic",
+    "Worked on authentication and authorization",
+    "Fixed bugs and improved existing features",
+    "Learned Git, API testing, debugging, AWS, Docker, and deployment workflows",
     ],
   },
   {
     icon: Code2,
 
-    year: "2022 - 2024",
+    year: "Apr 2022 - Oct 2024",
 
     title: "Web Developer",
 
@@ -74,7 +79,7 @@ const timeline = [
   {
     icon: FaWordpress,
 
-    year: "2019 - 2022",
+    year: "Nov 2019 - Apr 2022",
 
     title: "Wordpress Developer",
 
